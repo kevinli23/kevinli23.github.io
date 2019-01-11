@@ -40,6 +40,10 @@ footer {
   height: 8%;
 }
 
+.main-container {
+  overflow: hidden;
+}
+
 .about-container,
 .project-container,
 .contact-container {
