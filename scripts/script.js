@@ -20,6 +20,7 @@ $(document).ready(function() {
     }
     $("body").css("color", color[index]);
     $("a.icon-link").css("color", color[index]);
+    $("#portfolio").css("color", color[index]);
   });
 
   $(".section-link").click(function() {
