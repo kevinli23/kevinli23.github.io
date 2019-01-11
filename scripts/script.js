@@ -22,7 +22,7 @@ $(document).ready(function() {
     $("a.icon-link").css("color", color[index]);
   });
 
-  $("#about-link").click(function() {
+  $(".section-link").click(function() {
     if (this.hash != "") {
       event.preventDefault();
       var hash = this.hash;
