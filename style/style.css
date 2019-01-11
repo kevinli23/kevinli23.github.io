@@ -44,16 +44,41 @@ footer {
   overflow: hidden;
 }
 
+.fa-node:hover {
+  color: #6bbf47;
+}
+
+.fa-html5:hover {
+  color: #f16529;
+}
+
+.fa-css3-alt:hover {
+  color: #0170ba;
+}
+
+.fa-js-square:hover {
+  color: #e4a228;
+}
+
+.fa-chrome:hover {
+  color: #4587f3;
+}
+
+.fa-git:hover {
+  color: #413000;
+}
+
+.fa-java:hover {
+  color: #f8981d;
+}
+
+.fa-python:hover {
+  color: #ffdf59;
+}
+
 .about-container,
 .project-container,
 .contact-container {
-  margin-top: 10%;
-  float: center;
-  text-align: center;
-  height: 75%;
-}
-
-.project-container {
   margin-top: 10%;
   float: center;
   text-align: center;
@@ -138,8 +163,8 @@ h3.inner-card-title {
   }
 
   40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
   }
 
   80% {
