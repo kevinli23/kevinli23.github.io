@@ -94,7 +94,10 @@ a.icon-link {
   color: white;
 }
 
-i:hover {
+i:hover,
+img#golang:hover,
+img#bootstrap:hover,
+img#jquery:hover {
   animation: bounce 1s;
 }
 
