@@ -46,6 +46,13 @@ footer {
   margin-top: 10%;
   float: center;
   text-align: center;
+  height: 75%;
+}
+
+.project-container {
+  margin-top: 10%;
+  float: center;
+  text-align: center;
 }
 
 h2.subtitle {
