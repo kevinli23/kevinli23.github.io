@@ -28,7 +28,8 @@ footer {
 }
 
 .icons {
-  margin-left: 15px;
+  margin: auto;
+  display: block;
 }
 
 #portfolio {
