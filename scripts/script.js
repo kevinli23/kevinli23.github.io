@@ -20,13 +20,9 @@ $(document).ready(function() {
   $(".icon-link")
     .delay(4000)
     .fadeIn(2000);
-  // $("h1").fadeIn(0);
-  // $("h3")
-  //   .delay(0)
-  //   .fadeIn(0);
-  // $(".icon-link")
-  //   .delay(0)
-  //   .fadeIn(0);
+
+  $('[data-toggle="tooltip"]').tooltip();
+
   $("#portfolio").click(function() {
     index++;
     if (index > color.length - 1) {

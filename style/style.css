@@ -37,7 +37,7 @@ footer {
 }
 
 .icon-container {
-  margin-top: 3%;
+  margin-top: 5%;
   height: 8%;
 }
 
@@ -77,7 +77,12 @@ footer {
   color: #ffdf59;
 }
 
-.about-container,
+.about-container {
+  margin-top: 5%;
+  float: center;
+  text-align: center;
+}
+
 .project-container,
 .contact-container {
   margin-top: 10%;
@@ -148,6 +153,22 @@ h3.inner-card-title {
 .flip-card-front {
   background-color: #bbb;
   color: black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 /* Style the back side */
