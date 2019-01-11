@@ -13,6 +13,13 @@ var color = [
 var index = 0;
 
 $(document).ready(function() {
+  $("h1").fadeIn(2000);
+  $("h3")
+    .delay(2000)
+    .fadeIn(2000);
+  $(".icon-link")
+    .delay(4000)
+    .fadeIn(2000);
   $("#portfolio").click(function() {
     index++;
     if (index > color.length - 1) {
