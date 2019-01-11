@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Reem Kufi", sans-serif;
   color: white;
@@ -99,10 +103,12 @@ a.icon-link {
   color: white;
 }
 
+a.icon-link:hover {
+  color: #c0c0c0;
+}
+
 i:hover,
-img#golang:hover,
-img#bootstrap:hover,
-img#jquery:hover {
+img:hover {
   animation: bounce 1s;
 }
 
@@ -153,22 +159,6 @@ h3.inner-card-title {
 .flip-card-front {
   background-color: #bbb;
   color: black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
 
 /* Style the back side */
