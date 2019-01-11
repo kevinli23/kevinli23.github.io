@@ -21,4 +21,21 @@ $(document).ready(function() {
     $("body").css("color", color[index]);
     $("a.icon-link").css("color", color[index]);
   });
+
+  $("#about-link").click(function() {
+    if (this.hash != "") {
+      event.preventDefault();
+      var hash = this.hash;
+
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
+    }
+  });
 });
