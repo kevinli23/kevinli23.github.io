@@ -13,13 +13,11 @@ var color = [
 var index = 0;
 
 $(document).ready(function() {
-  $("h1").fadeIn(2000);
-  $("h3")
-    .delay(2000)
-    .fadeIn(2000);
+  $("h1").fadeIn(1000);
+  $("h3").fadeIn(3000);
   $(".icon-link")
-    .delay(4000)
-    .fadeIn(2000);
+    .delay(2900)
+    .fadeIn(1500);
 
   $('[data-toggle="tooltip"]').tooltip();
 
