@@ -16,8 +16,8 @@ $(document).ready(function() {
   $("h1").fadeIn(1000);
   $("h3").fadeIn(3000);
   $(".icon-link")
-    .delay(2900)
-    .fadeIn(1500);
+    .delay(1300)
+    .fadeIn(1200);
 
   $('[data-toggle="tooltip"]').tooltip();
 
