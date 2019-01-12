@@ -92,7 +92,7 @@ footer {
   margin-top: 10%;
   float: center;
   text-align: center;
-  height: 60%;
+  min-height: 80% !important;
 }
 
 .contact-container {
