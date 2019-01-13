@@ -151,6 +151,7 @@ footer {
 .nav-default {
   transition: 500ms ease;
   background: transparent;
+  border-bottom: 1px solid black;
 }
 
 .nav-default.scrolled {
