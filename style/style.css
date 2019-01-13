@@ -104,6 +104,16 @@ footer {
   text-align: center;
 }
 
+.nav-default {
+  border-bottom: 1px solid black;
+  transition: 500ms ease;
+  background: transparent;
+}
+
+.nav-default.scrolled {
+  background: #fffdd0;
+}
+
 h2.subtitle {
   text-align: left;
   padding-left: 10%;

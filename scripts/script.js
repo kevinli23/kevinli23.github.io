@@ -13,6 +13,10 @@ var color = [
 
 var index = 0;
 
+$(window).scroll(function() {
+  $("nav").toggleClass("scrolled", $(this).scrollTop() > 100);
+});
+
 $(document).ready(function() {
   $("h1").fadeIn(1000);
   $("h3").fadeIn(3000);
@@ -47,7 +51,7 @@ $(document).ready(function() {
     "div#chronovise-card, div#pengu-card, div#portfolio-card, div#darkrun-card, div#pomodoro-card, div#timetracker-card"
   ).mouseleave(function() {
     $("span.project-title").empty();
-    $("span.project-title").css("display", none);
+    $("span.project-title").css("display", "none");
   });
 
   $("div#pengu-card").hover(function() {
@@ -116,7 +120,7 @@ $(document).ready(function() {
 
       $("html, body").animate(
         {
-          scrollTop: $(hash).offset().top
+          scrollTop: $(hash).offset().top - 40
         },
         800,
         function() {
