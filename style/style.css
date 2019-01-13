@@ -1,10 +1,10 @@
 body {
   font-family: "Reem Kufi", sans-serif;
-  color: white;
+  color: #1a1a1d;
 }
 
 .bg-blue {
-  background: #1a1a1d;
+  background: white;
 }
 
 .column {
@@ -106,6 +106,7 @@ h2.subtitle {
   padding-left: 10%;
   font-size: 100px;
   font-family: "Roboto Condensed", sans-serif;
+  color: rgb(88, 139, 216);
 }
 
 a.icon-link {
