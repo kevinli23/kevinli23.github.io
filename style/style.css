@@ -24,7 +24,7 @@ h3 {
 }
 
 footer {
-  color: white;
+  color: black;
   overflow: hidden;
 }
 
@@ -128,6 +128,10 @@ h4.inner-card-text {
   text-align: left;
   padding-left: 20px;
   margin-right: 20px;
+}
+
+.inner-card-title {
+  color: black;
 }
 
 h3.inner-card-title {
