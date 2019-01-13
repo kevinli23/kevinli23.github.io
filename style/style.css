@@ -108,6 +108,19 @@ footer {
   padding-bottom: 2.5%;
 }
 
+.contact-container {
+  background: #db5461;
+  padding-top: 1.25%;
+  padding-bottom: 1.25%;
+  margin-bottom: -0.5%;
+}
+
+.contact_text {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
 .subsubtitle,
 .subsubsubtitle,
 .subdate {
@@ -156,6 +169,19 @@ footer {
 
 .nav-default.scrolled {
   background: #f8f8ff;
+}
+
+.footer {
+  height: 7%;
+  vertical-align: middle;
+  text-align: center;
+  border-top: 1px solid black;
+  font-size: 1.5em;
+  background: #f8f8ff;
+}
+
+footer p {
+  padding-top: 0.75%;
 }
 
 h2.subtitle {
