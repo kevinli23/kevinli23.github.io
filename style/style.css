@@ -81,6 +81,9 @@ footer {
 .fa-linux:hover {
   color: black;
 }
+.fa-docker:hover {
+  color: 099cec;
+}
 
 .about-container {
   margin-top: 5%;
