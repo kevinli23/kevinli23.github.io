@@ -1,6 +1,7 @@
 body {
-  font-family: "Reem Kufi", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #1a1a1d;
+  position: relative;
 }
 
 .bg-blue {
@@ -85,33 +86,75 @@ footer {
   color: 099cec;
 }
 
-.about-container {
-  margin-top: 5%;
+.about-container,
+.project-container,
+.contact-container,
+.education-container {
+  margin-top: 10%;
   float: center;
   text-align: center;
+}
+
+.about-container {
+  margin-top: 5%;
 }
 
 .project-container {
-  margin-top: 10%;
-  float: center;
-  text-align: center;
   min-height: 80% !important;
 }
 
-.contact-container {
-  margin-top: 10%;
-  float: center;
-  text-align: center;
+.education-container {
+  padding-top: 1%;
+  padding-bottom: 2.5%;
+}
+
+.subsubtitle,
+.subsubsubtitle,
+.subdate {
+  text-align: left;
+  margin-left: 10%;
+  color: gray;
+}
+
+.subsubtitle {
+  font-family: bold;
+  text-transform: uppercase;
+  font-size: 3em;
+  margin-top: 2%;
+  color: black;
+}
+
+.subsubsubtitle {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.subdate {
+  font-size: 1.5em;
+  margin-bottom: 1%;
+}
+
+.desc_text {
+  font-size: 1.5 em;
+  text-align: left;
+  margin-left: 12.5%;
+  color: black;
+}
+
+.desc_text_bullet {
+  font-size: 1 em;
+  text-align: left;
+  margin-left: 15%;
+  color: black;
 }
 
 .nav-default {
-  border-bottom: 1px solid black;
   transition: 500ms ease;
   background: transparent;
 }
 
 .nav-default.scrolled {
-  background: #fffdd0;
+  background: #f8f8ff;
 }
 
 h2.subtitle {
@@ -120,6 +163,7 @@ h2.subtitle {
   font-size: 100px;
   font-family: "Roboto Condensed", sans-serif;
   color: rgb(88, 139, 216);
+  font-weight: bold;
 }
 
 a.icon-link {

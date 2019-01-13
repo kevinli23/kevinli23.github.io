@@ -24,7 +24,7 @@
     />
   </head>
 
-  <body>
+  <body data-spy="scroll" data-targe=".navbar" data-offset="50">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-blue fixed-top nav-default" role="navigation">
         <a class="navbar-brand" href="#" id="portfolio">Portfolio</a>
@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link section-link active" href="#about">Home</a>
+              <a class="nav-link section-link active" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link section-link" href="#about">About</a>
@@ -44,23 +44,27 @@
                 <a class="nav-link section-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link section-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link section-link" href="#contact">Contact</a>
             </li>
+            <!--
             <li class="nav-item">
               <a
               class="nav-link"
               href="https://drive.google.com/file/d/1tkVS8qzSsriULWmRh5kW8eTM2DdM9tl8/view?usp=sharing"
               target="_blank"
               >Resume</a
-            >
+            >-->
           </li>
           </ul>
         </div>
       </nav>
 
-    <div class=".container-fluid bg-blue main-container" id="Home">
+    <div class=".container-fluid bg-blue main-container" id="home">
       <div style="margin-top:5%;" class=".container-fluid bg-blue">
-        <h1 style="display:none;color:black;">Kevin Li</h1>
+        <h1 style="display:none;color:black;font-size: 10em;">Kevin <span style="color: dodgerblue;">Li</span></h1>
         <h3 style="display:none">Programmer & Computer Science Student</h3>
       </div>
       <div class="container bg-blue icon-container">
@@ -86,8 +90,12 @@
             </a>
           </div>
           <div class="column">
-            <a class="icon-link" style="display:none;" href="">
-              <i style="color:black;" class="fab fa-facebook fa-4x  icons"></i>
+            <a 
+              class="icon-link" 
+              style="display:none;" 
+              href="https://drive.google.com/file/d/1tkVS8qzSsriULWmRh5kW8eTM2DdM9tl8/view?usp=sharing"
+              target="_blank">
+              <i style="color:black;" class="fas fa-file-pdf fa-4x  icons"></i>
             </a>
           </div>
           <div class="column">
@@ -206,7 +214,7 @@
           </div>
       </div>
       <div id="project" class=".container-fluid bg-blue project-container">
-        <h2 class="subtitle">Projects</h2>
+        <h2 class="subtitle">PROJECTS</h2>
         <div class="row" style="padding-top:3%;margin-left: 10%; margin-right: 10%;">
           <div class="column">
               <a
@@ -374,11 +382,6 @@
                     <i class="fab fa-js-square fa-2x fa-fw"></i>
                     <i class="fab fa-chrome fa-2x fa-fw"></i>
                   </div>
-                  <!--<h4 class="inner-card-text">
-                    Chrome Extension made at Hack the North 2018 that stored
-                    website links and opened them on press
-                  </h4>
-                  -->
                 </div>
               </div>
             </div>
@@ -410,12 +413,6 @@
                     <i class="fab fa-js-square fa-2x fa-fw"></i>
                     <i class="fab fa-chrome fa-2x fa-fw"></i>
                   </div>
-                  <!--
-                  <h4 class="inner-card-text">
-                    Chrome Extension that tracks the time spent on each site per
-                    day!
-                  </h4>
-                  -->
                 </div>
               </div>
             </div>
@@ -428,8 +425,27 @@
         </div>
 
       </div>
+      <div id="education" class=".container-fluid bg-blue education-container">
+          <h2 class="subtitle">EDUCATION</h2>
+          <h3 class="subsubtitle">University of Waterloo</h3>
+          <h3 class="subsubsubtitle">Candidate for Bachelor of Computer Science (BCS)</h3>
+          <h3 class="subdate">September 2018 - Present</h3>
+          <h3 class="desc_text">• 3.9 GPA and 90% First Term Average</h3>
+          <h3 class="desc_text">• General member of the Data Science and Computer Science Club</h3>
+          <h3 class="desc_text">• Relevant CS Courses:</h3>
+          <h3 class="desc_text_bullet">- CS 135: Designing Functional Programs</h3>
+          <h3 class="desc_text_bullet">- CS 136: Elementary Algorithm Design and Data Abstraction</h3>
+
+          <h3 class="subsubtitle">Harbord Collegiate Institute</h3>
+          <h3 class="subdate">September 2014 - June 2018</h3>
+          <h3 class="desc_text">• Graduated with a final average above 97%</h3>
+          <h3 class="desc_text">• Vice President of the Physics Club and President of the Computer Science Club</h3>
+          <h3 class="desc_text">• Main programmer for the school's FRC Robotics team in 2017 and 2018</h3>
+      </div>
+
+
       <div id="contact" class=".container-fluid bg-blue contact-container">
-        <h2 class="subtitle">Contact</h2>
+        <h2 class="subtitle">CONTACT</h2>
       </div>
     </div>
   </body>
@@ -437,9 +453,9 @@
   <footer>
     <div
       class=".container bg-blue"
-      style="height:4%;vertical-align: middle;padding-left: 10px;"
-    >
+      style="height:4%;vertical-align: middle;padding-left: 10px;">
       <p>Last Edited: January 11th 2019</p>
     </div>
   </footer>
+
 </html>
