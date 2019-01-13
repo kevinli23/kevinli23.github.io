@@ -1,5 +1,6 @@
 var color = [
   "white",
+  "dodgerblue",
   "#d36e3f",
   "#533fd3",
   "#3fd364",
