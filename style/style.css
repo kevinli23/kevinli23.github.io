@@ -183,6 +183,9 @@ footer {
   h1.title-text{
     font-size: 8em;
   }
+  h2.subtitle{
+    font-size: 4.5em !important;
+  }
 }
 
 .nav-default.scrolled {
