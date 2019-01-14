@@ -83,12 +83,13 @@ $(document).ready(function() {
   ).hover(function() {
     $("span.project-title").empty();
     $("span.project-title").append(descriptions[this.id]);
-    $("span.project-title").fadeIn(500);
+    $("span.project-title").fadeIn();
   });
 
   $(
     "div#chronovise-card, div#pengu-card, div#portfolio-card, div#darkrun-card, div#pomodoro-card, div#timetracker-card"
   ).mouseleave(function() {
+    $("span.project-title").empty();
     $("span.project-title").css("display", "none");
   });
 
